@@ -96,5 +96,7 @@
             $("#testBtn").on("click", function(){
                 total.val(quantity.val()*price.val());
             })
+
+            console.log("hello");
     </script> 
 @endsection
